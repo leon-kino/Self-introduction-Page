@@ -10,14 +10,14 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <div>
-      /(head)/
+      {/* head */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      /(body)/
+      {/* body */}
       <main className="w-full">
-        /(header)/
+        {/* header */}
         <div className="w-full h-20">
           <img src="/logo.png" alt="Fwywd Logo" className="w-40 float-left" />
           <ul className="h-full flex justify-end items-center">
@@ -35,7 +35,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        /(hero)/
+        {/* hero */}
         <div className="bg-bgc-green w-full h-full flex items-center">
           <div className='h-full w-full ml-32'>
             <h1 className='text-white text-5xl font-bold mb-5'>
@@ -49,7 +49,7 @@ export default function Home() {
             <img src="/hero.png" alt="hero" className='ml-auto m-10' />
           </div>
         </div>
-        /(about)/
+        {/* about */}
         <div className='mt-0 p-0 w-full h-full bg-about'>
           <div className='w-full flex justify-center py-10'>
             <h1 className='text-2xl font-bold text-brack tracking-widest mr-4'>
