@@ -10,6 +10,10 @@ module.exports = {
       'line-green': '#c5eaea',
       'white':'#ffffff',
       'sub-title':'#dcf4f6',
+      'brack':'#384359',
+    },
+    backgroundImage: {
+        'about': "url('/bg-about.png')",
     },
     extend: {},
   },
