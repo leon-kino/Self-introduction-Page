@@ -12,8 +12,7 @@ export default function Home() {
     <div>
       {/* head */}
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>fwywd/自己紹介ページ</title>
       </Head>
       {/* body */}
       <main className="w-full">
@@ -49,8 +48,9 @@ export default function Home() {
             <img src="/hero.png" alt="hero" className='ml-auto m-10' />
           </div>
         </div>
-        {/* about */}
-        <div className='mt-0 p-0 w-full h-full bg-about'>
+        {/* about-skills */}
+        <div className='mt-0 p-0 w-full h-full bg-about bg-no-repeat'>
+          {/* about */}
           <div className='w-full flex justify-center py-10'>
             <h1 className='text-2xl font-bold text-brack tracking-widest mr-4'>
               私について
@@ -73,8 +73,7 @@ export default function Home() {
               <img src="/about-2.png " alt="about-2" className=' m-auto' />
               <p className='text-xl font-bold
                text-light-green tracking-widest my-8'>
-                好き
-              な食べ物</p>
+                好きな食べ物</p>
               <p className='text-brack tracking-widest w-64 my-4'>
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -90,6 +89,70 @@ export default function Home() {
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
               </p>
+            </div>
+          </div>
+          {/* skills */}
+          <div className='mt-0 p-0 w-full h-full bg-skills bg-no-repeat'>
+            <div className='flex w-10/12 mx-auto py-40'>
+              <img src="/skill.png" alt="skill" className='py-10'/>
+              <div className='pl-5'>
+                <div className='flex py-5'>
+                  <h1 className='text-2xl font-bold
+                  text-brack tracking-widest mr-4'>
+                  スキル
+                  </h1>
+                  <h2 className='text-light-green
+                  tracking-wider my-auto'>SKILLS
+                  </h2>
+                </div>
+                <p className='w-8/12 py-5'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <div className='rounded bg-white h-64 w-8/12'>
+                  <div className='pl-7 py-5'>
+                    <p className='text-light-green text-xl'>SKILLSKILL</p>
+                    <div className='flex'>
+                      <div className='bg-bgc-skills rounded h-4
+                       w-10/12 relative my-auto'>
+                        <div className='absolute bg-skills-bar
+                         h-4 w-2/5 borders rounded'>
+                        </div>
+                      </div>
+                      <p className='text-light-green -auto pl-3'>40%</p>
+                    </div>
+                    <p className='text-light-green text-xl'>SKILLSKILL</p>
+                    <div className='flex'>
+                      <div className='bg-bgc-skills rounded h-4
+                       w-10/12 relative my-auto'>
+                        <div className='absolute bg-skills-bar
+                         h-4 w-2/5 borders rounded'>
+                        </div>
+                      </div>
+                      <p className='text-light-green -auto pl-3'>40%</p>
+                    </div>
+                    <p className='text-light-green text-xl'>SKILLSKILL</p>
+                    <div className='flex'>
+                      <div className='bg-bgc-skills rounded h-4
+                       w-10/12 relative my-auto'>
+                        <div className='absolute bg-skills-bar
+                         h-4 w-2/5 borders rounded'>
+                        </div>
+                      </div>
+                      <p className='text-light-green pl-3'>40%</p>
+                    </div>
+                    <p className='text-light-green text-xl'>SKILLSKILL</p>
+                    <div className='flex'>
+                      <div className='bg-bgc-skills rounded h-4
+                       w-10/12 relative my-auto'>
+                        <div className='absolute bg-skills-bar
+                         h-4 w-2/5 borders rounded'>
+                        </div>
+                      </div>
+                      <p className='text-light-green -auto pl-3'>40%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
