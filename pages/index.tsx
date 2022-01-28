@@ -105,8 +105,9 @@ export default function Home() {
                   tracking-wider my-auto'>SKILLS
                   </h2>
                 </div>
-                <p className='w-8/12 py-5'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                <p className='w-8/12 py-5 text-brack'>テキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキスト
                 </p>
                 <div className='rounded bg-white h-64 w-8/12'>
                   <div className='pl-7 py-5'>
@@ -153,6 +154,42 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        {/* values */}
+        <div className='mt-0 p-0 w-full h-full bg-no-repeat '>
+          <div className='flex justify-center mb-14'>
+            <h1 className='text-2xl font-bold text-brack tracking-widest mr-4'>
+              価値観
+            </h1>
+            <h2 className='text-light-green tracking-wider my-auto'>VALUES</h2>
+          </div>
+          <div className='flex bg-white rounded
+           w-8/12 m-auto justify-around pb-10'>
+            <div className='w-72 h-10/12'>
+              <img src="value1.png" alt="value1" className='m-auto' />
+              <h3 className='font-bold text-brack
+               tracking-widest text-center py-5'>価値観01</h3>
+              <h4 className='w-9/12 m-auto text-center
+               text-sm text-brack'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト</h4>
+            </div>
+            <div className='w-72 border-l-2 h-10/12 border-line-green'>
+              <img src="value2.png" alt="value1" className='m-auto' />
+              <h3 className='font-bold text-brack
+               tracking-widest text-center py-5'>価値観02</h3>
+              <h4 className='w-9/12 m-auto text-center
+               text-sm text-brack'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト</h4>
+            </div>
+            <div className='w-72 border-l-2 h-10/12 border-line-green'>
+              <img src="value3.png" alt="value1" className='m-auto' />
+              <h3 className='font-bold text-brack
+               tracking-widest text-center py-5'>価値観03</h3>
+              <h4 className='w-9/12 m-auto text-center
+               text-sm text-brack'>テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト</h4>
             </div>
           </div>
         </div>
