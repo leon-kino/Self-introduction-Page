@@ -227,7 +227,7 @@ export default function Home() {
         <div className='w-1/6 m-auto'>
           <div className=' py-10 flex justify-center'>
             <p className='text-white text-xs my-auto'>CREATED BY</p>
-            <p className='text-white my-auto ml-5'>木野 伶音</p>
+            <p className='text-white my-auto ml-5 font-bold'>木野 伶音</p>
           </div>
           <img src="/logo_white.png" className='h-36 m-auto mb-10' />
           <div className='flex justify-center'>
