@@ -13,6 +13,8 @@ module.exports = {
       'brack': '#384359',
       'bgc-skills': '#C6EAEA',
       'skills-bar': '#2BB9BB',
+      'bgc-footer': '#262c3a',
+
     },
     backgroundImage: {
       'about': 'url("/bg-about.png")',
