@@ -15,21 +15,22 @@ export default function Home() {
         <title>fwywd/自己紹介ページ</title>
       </Head>
       {/* body */}
-      <main className="w-full">
+      <main className="w-max md:w-full">
         {/* header */}
-        <div className="w-full h-20">
-          <img src="/logo.png" alt="Fwywd Logo" className="w-40 float-left" />
-          <ul className="h-full flex justify-end items-center">
-            <li className="mr-6 text-light-green font-bold">
+        <div className="w-full h-full md:flex md:justify-between">
+          <img src="/logo.png" alt="Fwywd Logo"
+            className="w-72 md:w-40 m-auto md:ml-0" />
+          <ul className="h-full flex justify-center mb-5 md:my-auto">
+            <li className="mx-3 text-light-green font-bold">
               <a href="#">ABOUT</a>
             </li>
-            <li className="mr-6 text-light-green font-bold">
+            <li className="mx-3 text-light-green font-bold">
               <a href="#">SKILLS</a>
             </li>
-            <li className="mr-6 text-light-green font-bold">
+            <li className="mx-3 text-light-green font-bold">
               <a href="#">VALUES</a>
             </li>
-            <li className="mr-6 text-light-green font-bold">
+            <li className="mx-3 text-light-green font-bold">
               <a href="#">FUTURE</a>
             </li>
           </ul>
