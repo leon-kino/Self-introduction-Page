@@ -21,16 +21,20 @@ export default function Home() {
           <img src="/logo.png" alt="Fwywd Logo"
             className="w-72 md:w-40 m-auto md:ml-0" />
           <ul className="h-full flex justify-center mb-5 md:my-auto">
-            <li className="mx-3 text-light-green font-bold">
+            <li
+              className="mx-3 text-light-green font-bold text-3xl md:text-base">
               <a href="#">ABOUT</a>
             </li>
-            <li className="mx-3 text-light-green font-bold">
+            <li
+              className="mx-3 text-light-green font-bold text-3xl md:text-base">
               <a href="#">SKILLS</a>
             </li>
-            <li className="mx-3 text-light-green font-bold">
+            <li
+              className="mx-3 text-light-green font-bold text-3xl md:text-base">
               <a href="#">VALUES</a>
             </li>
-            <li className="mx-3 text-light-green font-bold">
+            <li
+              className="mx-3 text-light-green font-bold text-3xl md:text-base">
               <a href="#">FUTURE</a>
             </li>
           </ul>
