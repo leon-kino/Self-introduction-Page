@@ -60,19 +60,23 @@ export default function Home() {
           </div>
         </div>
         {/* about-skills */}
-        <div className="mt-0 p-0 w-full h-full bg-about bg-no-repeat">
+        <div className="mt-0 p-0 w-full h-full md:bg-about bg-no-repeat">
           {/* about */}
           <div>
-            <div className="w-full flex justify-center py-10">
+            <div className="w-full md:flex justify-center py-10">
               <h1
-                className="text-2xl font-bold
+                className=" text-4xl md:text-2xl text-center font-bold
                text-brack tracking-widest mr-4"
               >
                 私について
               </h1>
-              <h2 className="text-light-green tracking-wider my-auto">ABOUT</h2>
+              <h2 className="
+              text-2xl md:text-base text-light-green
+              mt-2 text-center tracking-wider md:my-auto">
+                ABOUT
+              </h2>
             </div>
-            <div className="flex justify-center">
+            <div className="md:flex justify-center">
               <div className="mx-16 text-center">
                 <img src="/about-1.png " alt="about-1" className=" m-auto" />
                 <p
@@ -81,7 +85,7 @@ export default function Home() {
                 >
                   趣味
                 </p>
-                <p className="text-brack tracking-widest w-64 my-4">
+                <p className="text-brack tracking-widest w-64 my-4 m-auto">
                   1.ボーリング<br />
                   上手くないはないです<br />
                   2映画鑑賞<br />
@@ -96,7 +100,7 @@ export default function Home() {
                 >
                   好きな食べ物
                 </p>
-                <p className="text-brack tracking-widest w-64 my-4">
+                <p className="text-brack tracking-widest w-64 my-4 m-auto">
                   1ピザ <br />
                   サイゼリアでは絶対に食べます<br />
                   2カレー<br />
@@ -111,7 +115,7 @@ export default function Home() {
                 >
                   性格
                 </p>
-                <p className="text-brack tracking-widest w-64 my-4">
+                <p className="text-brack tracking-widest w-64 my-4 m-auto">
                   1負けず嫌い<br />
                   他人に負けるのが嫌いです<br />
                   2思い立ったら即行動<br />
