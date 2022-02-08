@@ -15,48 +15,49 @@ export default function Home() {
         <title>fwywd/自己紹介ページ</title>
       </Head>
       {/* body */}
-      <main className="w-max md:w-full">
+      <main className="w-full">
         {/* header */}
         <div className="w-full h-full md:flex md:justify-between">
           <img src="/logo.png" alt="Fwywd Logo"
-            className="w-72 md:w-40 m-auto md:ml-0" />
+            className="w-40 m-auto md:ml-0" />
           <ul className="h-full flex justify-center mb-5 md:my-auto">
             <li
-              className="mx-3 text-light-green font-bold text-3xl md:text-base">
+              className="mx-3 text-light-green font-bold">
               <a href="#">ABOUT</a>
             </li>
             <li
-              className="mx-3 text-light-green font-bold text-3xl md:text-base">
+              className="mx-3 text-light-green font-bold">
               <a href="#">SKILLS</a>
             </li>
             <li
-              className="mx-3 text-light-green font-bold text-3xl md:text-base">
+              className="mx-3 text-light-green font-bold">
               <a href="#">VALUES</a>
             </li>
             <li
               className="ml-3 md:mr-6
-               text-light-green font-bold text-3xl md:text-base">
+               text-light-green font-bold">
               <a href="#">FUTURE</a>
             </li>
           </ul>
         </div>
         {/* hero */}
-        <div className="bg-bgc-green w-full h-full md:flex md:items-center">
+        <div className="
+        bg-bgc-green w-full h-full md:flex md:items-center pb-1">
           <div className="h-full md:w-full md:ml-32">
             <h1 className="
-          text-white text-5xl font-bold m-auto
+          text-white text-3xl md:text-5xl font-bold m-auto
            text-center pt-10 md:ml-0 md:text-left">
               自己紹介ページ
             </h1>
             <h2 className="
-            text-sub-title text-3xl font-bold pt-5 m-auto
+            text-sub-title text-2xl md:text-3xl font-bold pt-5 m-auto
              text-center md:ml-0 md:text-left">
               木野 伶音
             </h2>
           </div>
           <div className="w-full">
             <img src="/hero.png" alt="hero"
-              className="mx-auto md:ml-auto m-10" />
+              className="w-8/12 md:w-max mx-auto md:ml-auto m-10" />
           </div>
         </div>
         {/* about-skills */}
@@ -65,14 +66,13 @@ export default function Home() {
           <div>
             <div className="w-full md:flex justify-center py-10">
               <h1
-                className=" text-4xl md:text-2xl text-center font-bold
+                className="w-full md:w-max text-2xl text-center font-bold
                text-brack tracking-widest mr-4"
               >
                 私について
               </h1>
               <h2 className="
-              text-2xl md:text-base text-light-green
-              mt-2 text-center tracking-wider md:my-auto">
+              text-light-green mt-2 text-center tracking-wider md:my-auto">
                 ABOUT
               </h2>
             </div>
@@ -125,32 +125,36 @@ export default function Home() {
             </div>
           </div>
           {/* skills */}
-          <div className="mt-0 p-0 w-full h-full bg-skills bg-no-repeat">
-            <div className="flex w-10/12 mx-auto py-40">
-              <img src="/skill.png" alt="skill" className="py-10" />
-              <div className="pl-5">
-                <div className="flex py-5">
+          <div className="
+          mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat">
+            <div className="md:flex w-10/12 mx-auto py-10 md:py-40">
+              <img src="/skill.png" alt="skill" className="
+              py-10 hidden md:block" />
+              <div className="md:pl-5">
+                <div className="md:flex py-5">
                   <h1
                     className="text-2xl font-bold
-                  text-brack tracking-widest mr-4"
+                  text-brack tracking-widest mr-4 w-full md:w-max text-center"
                   >
                     スキル
                   </h1>
                   <h2
                     className="text-light-green
-                  tracking-wider my-auto"
+                  tracking-wider my-auto w-full md:w-max text-center"
                   >
                     SKILLS
                   </h2>
                 </div>
-                <p className="w-full py-5 text-brack">
+                <img src="/skill.png" alt="skill" className="
+              py-10 md:hidden m-auto" />
+                <p className="w-full py-5 text-brack text-center md:text-left">
                   社会人経験がなくて、大したスキルは持っていないです。<br />
                   しかし、10代だからこその行動力や発想力を持っています。<br />
                   プログラミングに関しては、実戦で使えるレベルではないですが、<br />
                   学校などで学んでいたので他の高校生よりはできます。
                 </p>
-                <div className="rounded bg-white h-64 w-full">
-                  <div className="pl-7 py-5">
+                <div className="rounded bg-white h-64 m-auto w-full">
+                  <div className="px-5 py-5">
                     <p className="text-light-green text-xl">プログラミング</p>
                     <div className="flex">
                       <div
@@ -175,7 +179,7 @@ export default function Home() {
                         h-4 w-full borders rounded"
                         ></div>
                       </div>
-                      <p className="text-light-green -auto pl-3">100%</p>
+                      <p className="text-light-green -auto pl-2">100%</p>
                     </div>
                     <p className="text-light-green text-xl">発想力</p>
                     <div className="flex">
@@ -213,7 +217,7 @@ export default function Home() {
         <div className="bg-future bg-no-repeat bg-bottom">
           {/* values */}
           <div className="mt-0 p-0 w-full h-full">
-            <div className="flex justify-center mb-14">
+            <div className="flex justify-center my-14">
               <h1
                 className="text-2xl font-bold
                text-brack tracking-widest mr-4"
@@ -284,7 +288,7 @@ export default function Home() {
           </div>
           {/* future */}
           <div className="w-8/12 m-auto py-10">
-            <div className="flex justify-between">
+            <div className="md:flex justify-between">
               <div className="w-11/12">
                 <div className="flex">
                   <h1

@@ -19,6 +19,7 @@ module.exports = {
     backgroundImage: {
       'about': 'url("/bg-about.png")',
       'skills': 'url("/bg-skills.png")',
+      'skills-sp': 'url("/bg-skills-sp.png")',
       'future': 'url("/bg-future.png")',
     },
     extend: {},
