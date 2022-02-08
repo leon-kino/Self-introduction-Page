@@ -34,19 +34,29 @@ export default function Home() {
               <a href="#">VALUES</a>
             </li>
             <li
-              className="mx-3 text-light-green font-bold text-3xl md:text-base">
+              className="ml-3 md:mr-6
+               text-light-green font-bold text-3xl md:text-base">
               <a href="#">FUTURE</a>
             </li>
           </ul>
         </div>
         {/* hero */}
-        <div className="bg-bgc-green w-full h-full flex items-center">
-          <div className="h-full w-full ml-32">
-            <h1 className="text-white text-5xl font-bold mb-5">自己紹介ページ</h1>
-            <h2 className="text-sub-title text-3xl font-bold">木野 伶音</h2>
+        <div className="bg-bgc-green w-full h-full md:flex md:items-center">
+          <div className="h-full md:w-full md:ml-32">
+            <h1 className="
+          text-white text-5xl font-bold m-auto
+           text-center pt-10 md:ml-0 md:text-left">
+              自己紹介ページ
+            </h1>
+            <h2 className="
+            text-sub-title text-3xl font-bold pt-5 m-auto
+             text-center md:ml-0 md:text-left">
+              木野 伶音
+            </h2>
           </div>
           <div className="w-full">
-            <img src="/hero.png" alt="hero" className="ml-auto m-10" />
+            <img src="/hero.png" alt="hero"
+              className="mx-auto md:ml-auto m-10" />
           </div>
         </div>
         {/* about-skills */}
