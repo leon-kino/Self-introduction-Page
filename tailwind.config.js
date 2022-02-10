@@ -21,6 +21,7 @@ module.exports = {
       'skills': 'url("/bg-skills.png")',
       'skills-sp': 'url("/bg-skills-sp.png")',
       'future': 'url("/bg-future.png")',
+      'future-sp': 'url("/bg-future-sp.png")',
     },
     extend: {},
   },
