@@ -217,25 +217,26 @@ export default function Home() {
         <div className="bg-future bg-no-repeat bg-bottom">
           {/* values */}
           <div className="mt-0 p-0 w-full h-full">
-            <div className="flex justify-center my-14">
+            <div className="
+            flex flex-col md:flex-row justify-center my-14">
               <h1
                 className="text-2xl font-bold
-               text-brack tracking-widest mr-4"
+               text-brack tracking-widest mx-2 text-center"
               >
                 価値観
               </h1>
               <h2
-                className="text-light-green
-               tracking-wider my-auto"
+                className="text-light-green mx-2
+               tracking-wider my-auto text-center"
               >
                 VALUES
               </h2>
             </div>
             <div
-              className="flex bg-white rounded
-            w-8/12 m-auto justify-around pb-10"
+              className="md:flex bg-white rounded
+            w-10/12 md:w-8/12 m-auto justify-around pb-10"
             >
-              <div className="w-72 h-10/12">
+              <div className="w-72 h-10/12 mx-auto md:mx-0 mb-7 md:mb-0">
                 <img src="value1.png" alt="value1" className="m-auto" />
                 <h3
                   className="font-bold text-brack
@@ -251,7 +252,9 @@ export default function Home() {
                   毎日少しでも良いことをするか<br />しないかで最終的には莫大な差が生まれると思っています。
                 </h4>
               </div>
-              <div className="w-72 border-l-2 h-10/12 border-line-green">
+              <div className="
+              w-72 md:border-l-2 mx-auto
+               md:mx-0 h-10/12 border-line-green mb-7 md:mb-0">
                 <img src="value2.png" alt="value1" className="m-auto" />
                 <h3
                   className="font-bold text-brack
@@ -267,7 +270,8 @@ export default function Home() {
                 なので、できるだけ多くの物事に挑戦し続けます。
                 </h4>
               </div>
-              <div className="w-72 border-l-2 h-10/12 border-line-green">
+              <div className="
+              w-72 md:border-l-2 mx-auto md:mx-0 h-10/12 border-line-green">
                 <img src="value3.png" alt="value1" className="m-auto" />
                 <h3
                   className="font-bold text-brack
