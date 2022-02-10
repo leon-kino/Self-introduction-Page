@@ -214,7 +214,7 @@ export default function Home() {
           </div>
         </div>
         {/* values-future */}
-        <div className="bg-future bg-no-repeat bg-bottom">
+        <div className="bg-future-sp md:bg-future bg-no-repeat bg-bottom">
           {/* values */}
           <div className="mt-0 p-0 w-full h-full">
             <div className="
@@ -291,36 +291,39 @@ export default function Home() {
             </div>
           </div>
           {/* future */}
-          <div className="w-8/12 m-auto py-10">
-            <div className="md:flex justify-between">
-              <div className="w-11/12">
-                <div className="flex">
-                  <h1
-                    className="text-2xl font-bold
-                  text-brack tracking-widest mr-4 my-10"
-                  >
+          <div className="
+          w-10/12 md:w-8/12 m-auto py-10 md:flex justify-between">
+            <div className="md:w-11/12">
+              <div className="w-max flex flex-col md:flex-row m-auto md:m-0">
+                <h1
+                  className="text-2xl font-bold text-center mx-auto
+                  text-brack tracking-widest md:mr-4 mt-10 md:my-10"
+                >
                     3年後にやりたいこと
-                  </h1>
-                  <h2
-                    className="text-light-green
-                  tracking-wider my-auto"
-                  >
+                </h1>
+                <h2
+                  className="text-light-green w-max
+                  tracking-wider m-auto md:mx-0 pb-5 md:pb-0"
+                >
                     FUTURE
-                  </h2>
-                </div>
-                <p className="mr-5 text-brack">
+                </h2>
+              </div>
+              <h1 className="
+                mx-auto md:mr-5 text-brack text-center md:text-left">
                 まずは自分の為でなく、<br />他人の為に全力を出せる人になります。<br />
                 そして私のように経済的な理由で夢を諦める人を減らします。<br />
                 教育を変えることでより良い日本・世界にします。
-                </p>
-              </div>
-              <img src="future.png" alt="future" />
+              </h1>
             </div>
+            <img src="future.png" alt="future" className='
+            w-max hidden md:block' />
           </div>
+          <img src="future.png" alt="future" className='
+         w-max md:hidden' />
         </div>
       </main>
       {/* footer */}
-      <footer className="mt-2 bg-bgc-footer">
+      <footer className="md:mt-2 bg-bgc-footer">
         <div className="w-1/6 m-auto">
           <div className=" py-10 flex justify-center">
             <p className="text-white text-xs my-auto">CREATED BY</p>
