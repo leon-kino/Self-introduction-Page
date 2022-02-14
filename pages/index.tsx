@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import About from '../components/about';
 
 /**
  *
@@ -53,51 +54,13 @@ export default function Home() {
               </h2>
             </div>
             <div className="md:flex justify-center">
-              <div className="mx-16 text-center">
-                <img src="/about-1.png " alt="about-1" className=" m-auto" />
-                <p
-                  className="text-xl font-bold
-                text-light-green tracking-widest my-8"
-                >
-                  趣味
-                </p>
-                <p className="text-brack tracking-widest w-64 my-4 m-auto">
-                  1.ボーリング<br />
-                  上手くないはないです<br />
-                  2映画鑑賞<br />
-                  ハリーポッターが大好きです
-                </p>
-              </div>
-              <div className="mx-16 text-center">
-                <img src="/about-2.png " alt="about-2" className=" m-auto" />
-                <p
-                  className="text-xl font-bold
-                text-light-green tracking-widest my-8"
-                >
-                  好きな食べ物
-                </p>
-                <p className="text-brack tracking-widest w-64 my-4 m-auto">
-                  1ピザ <br />
-                  サイゼリアでは絶対に食べます<br />
-                  2カレー<br />
-                  辛すぎず甘すぎずの中辛派です
-                </p>
-              </div>
-              <div className="mx-16 text-center">
-                <img src="/about-3.png " alt="about-3" className=" m-auto" />
-                <p
-                  className="text-xl font-bold
-                text-light-green tracking-widest my-8"
-                >
-                  性格
-                </p>
-                <p className="text-brack tracking-widest w-64 my-4 m-auto">
-                  1負けず嫌い<br />
-                  他人に負けるのが嫌いです<br />
-                  2思い立ったら即行動<br />
-                  考える前に<br />体が動いているタイプです
-                </p>
-              </div>
+              <About src={'/about-1.png'} title={'趣味'}
+                content={'1ボーリング\n上手くはないです\n2映画鑑賞\nハリーポッターが大好きです'} />
+              <About src={'/about-2.png'} title={'好きな食べ物'}
+                content={'1ピザ\nサイゼリアでは絶対に食べます\n2カレー\n辛すぎず甘すぎずの中辛派です'} />
+              <About src={'/about-3.png'} title={'性格'}
+                content={
+                  '1負けず嫌い\n他人に負けるのが嫌いです\n2思い立ったら即行動\n考える前に\n体が動いているタイプです'} />
             </div>
           </div>
           {/* skills */}
