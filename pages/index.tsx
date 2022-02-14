@@ -16,30 +16,6 @@ export default function Home() {
       </Head>
       {/* body */}
       <main className="w-full">
-        {/* header */}
-        <div className="w-full h-full md:flex md:justify-between">
-          <img src="/logo.png" alt="Fwywd Logo"
-            className="w-40 m-auto md:ml-0" />
-          <ul className="h-full flex justify-center mb-5 md:my-auto">
-            <li
-              className="mx-3 text-light-green font-bold">
-              <a href="#">ABOUT</a>
-            </li>
-            <li
-              className="mx-3 text-light-green font-bold">
-              <a href="#">SKILLS</a>
-            </li>
-            <li
-              className="mx-3 text-light-green font-bold">
-              <a href="#">VALUES</a>
-            </li>
-            <li
-              className="ml-3 md:mr-6
-               text-light-green font-bold">
-              <a href="#">FUTURE</a>
-            </li>
-          </ul>
-        </div>
         {/* hero */}
         <div className="
         bg-bgc-green w-full h-full md:flex md:items-center pb-1">
@@ -248,8 +224,10 @@ export default function Home() {
                   className="w-9/12 m-auto text-center
                 text-sm text-brack"
                 >
-                  「毎日1%の成長」<br />が人生の目標です。<br />
-                  毎日少しでも良いことをするか<br />しないかで最終的には莫大な差が生まれると思っています。
+                  「毎日1%の成長」<br />
+                  が人生の目標です。<br />
+                  毎日少しでも良いことをするか<br />
+                  しないかで最終的には莫大な差が生まれると思っています。
                 </h4>
               </div>
               <div className="
@@ -310,7 +288,8 @@ export default function Home() {
               </div>
               <h1 className="
                 mx-auto md:mr-5 text-brack text-center md:text-left">
-                まずは自分の為でなく、<br />他人の為に全力を出せる人になります。<br />
+                まずは自分の為でなく、<br />
+                他人の為に全力を出せる人になります。<br />
                 そして私のように経済的な理由で夢を諦める人を減らします。<br />
                 教育を変えることでより良い日本・世界にします。
               </h1>
@@ -322,43 +301,6 @@ export default function Home() {
          w-max md:hidden' />
         </div>
       </main>
-      {/* footer */}
-      <footer className="md:mt-2 bg-bgc-footer">
-        <div className="md:w-1/6 m-auto">
-          <div className=" py-10 md:flex justify-center">
-            <div className='flex justify-center my-2 md:my-0'>
-              <p className='text-sm text-white mx-3 md:hidden'>
-                お問い合わせ
-              </p>
-              <p className='text-sm text-white mx-3 md:hidden'>
-                助成金について
-              </p>
-            </div>
-            <div className='flex justify-center my-2 md:my-0'>
-              <p className='text-sm text-white mx-3 md:hidden'>
-                特定商取引法に基づく表記
-              </p>
-              <p className='text-sm text-white mx-3 md:hidden'>
-                プライバシーポリシー
-              </p>
-            </div>
-            <p className="text-white text-xs my-auto hidden md:block">
-              CREATED BY
-            </p>
-            <p className="text-white my-auto ml-5 font-bold hidden md:block">
-              木野 伶音
-            </p>
-          </div>
-          <img src="/logo_white.png" className="h-36 m-auto mb-10" />
-          <div className="flex justify-center">
-            <img src="/twitter.png" className="h-4 mx-3" />
-            <img src="/facebook.png" className="h-4 mx-3" />
-          </div>
-          <p className="text-white text-xs text-center py-10">
-            ©︎ 2021 KIKAGAKU
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
