@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Nav from './nav';
 /**
  *
  *
@@ -12,23 +12,10 @@ export default function Header() {
       <img src="/logo.png" alt="Fwywd Logo"
         className="w-40 m-auto md:ml-0" />
       <ul className="h-full flex justify-center mb-5 md:my-auto">
-        <li
-          className="mx-3 text-light-green font-bold">
-          <a href="#">ABOUT</a>
-        </li>
-        <li
-          className="mx-3 text-light-green font-bold">
-          <a href="#">SKILLS</a>
-        </li>
-        <li
-          className="mx-3 text-light-green font-bold">
-          <a href="#">VALUES</a>
-        </li>
-        <li
-          className="ml-3 md:mr-6
-            text-light-green font-bold">
-          <a href="#">FUTURE</a>
-        </li>
+        <Nav title={'ABOUT'} />
+        <Nav title={'SKILLS'} />
+        <Nav title={'VALUES'} />
+        <Nav title={'FUTURE'} />
       </ul>
     </div>
   );
