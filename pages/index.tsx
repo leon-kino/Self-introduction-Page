@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import About from '../components/about';
+import Skills from '../components/skills';
 
 /**
  *
@@ -94,58 +95,10 @@ export default function Home() {
                 </p>
                 <div className="rounded bg-white h-64 m-auto w-full">
                   <div className="px-5 py-5">
-                    <p className="text-light-green text-xl">プログラミング</p>
-                    <div className="flex">
-                      <div
-                        className="bg-bgc-skills rounded h-4
-                      w-10/12 relative my-auto"
-                      >
-                        <div
-                          className="absolute bg-skills-bar
-                        h-4 w-2/5 borders rounded"
-                        ></div>
-                      </div>
-                      <p className="text-light-green -auto pl-3">40%</p>
-                    </div>
-                    <p className="text-light-green text-xl">行動力</p>
-                    <div className="flex">
-                      <div
-                        className="bg-bgc-skills rounded h-4
-                      w-10/12 relative my-auto"
-                      >
-                        <div
-                          className="absolute bg-skills-bar
-                        h-4 w-full borders rounded"
-                        ></div>
-                      </div>
-                      <p className="text-light-green -auto pl-2">100%</p>
-                    </div>
-                    <p className="text-light-green text-xl">発想力</p>
-                    <div className="flex">
-                      <div
-                        className="bg-bgc-skills rounded h-4
-                      w-10/12 relative my-auto"
-                      >
-                        <div
-                          className="absolute bg-skills-bar
-                        h-4 w-4/5 borders rounded"
-                        ></div>
-                      </div>
-                      <p className="text-light-green pl-3">80%</p>
-                    </div>
-                    <p className="text-light-green text-xl">経験</p>
-                    <div className="flex">
-                      <div
-                        className="bg-bgc-skills rounded h-4
-                      w-10/12 relative my-auto"
-                      >
-                        <div
-                          className="absolute bg-skills-bar
-                        h-4 w-1/5 borders rounded"
-                        ></div>
-                      </div>
-                      <p className="text-light-green -auto pl-3">20%</p>
-                    </div>
+                    <Skills title={'プログラミング'} percent={40} />
+                    <Skills title={'行動力'} percent={100} />
+                    <Skills title={'発想力'} percent={80} />
+                    <Skills title={'経験'} percent={20} />
                   </div>
                 </div>
               </div>
