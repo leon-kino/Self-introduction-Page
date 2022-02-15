@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import About from '../components/about';
 import Skills from '../components/skills';
+import Values from '../components/values';
 
 /**
  *
@@ -128,59 +129,24 @@ export default function Home() {
               className="md:flex bg-white rounded
             w-10/12 md:w-8/12 m-auto justify-around pb-10"
             >
-              <div className="w-72 h-10/12 mx-auto md:mx-0 mb-7 md:mb-0">
-                <img src="value1.png" alt="value1" className="m-auto" />
-                <h3
-                  className="font-bold text-brack
-                tracking-widest text-center py-5"
-                >
-                  成長
-                </h3>
-                <h4
-                  className="w-9/12 m-auto text-center
-                text-sm text-brack"
-                >
-                  「毎日1%の成長」<br />
-                  が人生の目標です。<br />
-                  毎日少しでも良いことをするか<br />
-                  しないかで最終的には莫大な差が生まれると思っています。
-                </h4>
+              <Values src={'value1.png'} title={'成長'}
+                content={
+                  '「毎日1%の成長\nが人生の目標です。\n毎日少しでも良いことをするか\nし' +
+                   'ないかで最終的には莫大な差が生まれると思っています。'
+                } />
+              <div className="md:border-l-2 border-line-green">
+                <Values src={'value2.png'} title={'挑戦'}
+                  content={
+                    '清朝すつた目には常に\n挑戦し続けなければなりません\n' +
+                    'なので、できるだけ多くの物事に挑戦し続けます。'
+                  } />
               </div>
-              <div className="
-              w-72 md:border-l-2 mx-auto
-               md:mx-0 h-10/12 border-line-green mb-7 md:mb-0">
-                <img src="value2.png" alt="value1" className="m-auto" />
-                <h3
-                  className="font-bold text-brack
-                tracking-widest text-center py-5"
-                >
-                  挑戦
-                </h3>
-                <h4
-                  className="w-9/12 m-auto text-center
-                text-sm text-brack"
-                >
-                成長するためには常に<br />挑戦し続けなければなりません。<br />
-                なので、できるだけ多くの物事に挑戦し続けます。
-                </h4>
-              </div>
-              <div className="
-              w-72 md:border-l-2 mx-auto md:mx-0 h-10/12 border-line-green">
-                <img src="value3.png" alt="value1" className="m-auto" />
-                <h3
-                  className="font-bold text-brack
-                tracking-widest text-center py-5"
-                >
-                  メリハリ
-                </h3>
-                <h4
-                  className="w-9/12 m-auto text-center
-                text-sm text-brack"
-                >
-                  楽しむときは楽しむ。<br />
-                  頑張るときは頑張る。<br />
-                  などのメリハリを<br />大切にしています。<br />
-                </h4>
+              <div className="md:border-l-2 border-line-green">
+                <Values src={'value3.png'} title={'メリハリ'}
+                  content={
+                    '楽しむときは楽しむ。\n頑張るときは頑張る。\n' +
+                    'などのメリハリを\n大切にしています。'
+                  } />
               </div>
             </div>
           </div>
