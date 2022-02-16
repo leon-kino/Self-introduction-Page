@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Hero from '../components/hero';
+import Hero from '../components/Hero';
 import AboutSkills from '../components/AboutSkills';
 import ValuesFuture from '../components/ValuesFuture';
 
