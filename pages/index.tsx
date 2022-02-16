@@ -137,7 +137,7 @@ export default function Home() {
               <div className="md:border-l-2 border-line-green">
                 <Values src={'value2.png'} title={'挑戦'}
                   content={
-                    '清朝すつた目には常に\n挑戦し続けなければなりません\n' +
+                    '成長するためには常に\n挑戦し続けなければなりません\n' +
                     'なので、できるだけ多くの物事に挑戦し続けます。'
                   } />
               </div>
