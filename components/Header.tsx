@@ -1,12 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
-/**
- *
- *
- * @export
- * @return {*}
- */
-export default function Header() {
+
+const Header = () => {
   return (
     <div className="w-full h-full md:flex md:justify-between">
       <img src="/logo.png" alt="Fwywd Logo"
@@ -20,3 +15,6 @@ export default function Header() {
     </div>
   );
 };
+
+export default Header;
+
