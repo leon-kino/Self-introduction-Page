@@ -73,10 +73,10 @@ const ValuesFuture = () => {
           </h1>
         </div>
         <img src="future.png" alt="future" className='
-        w-max hidden md:block' />
+        w-max h-max hidden md:block' />
       </div>
       <img src="future.png" alt="future" className='
-     w-max md:hidden' />
+     w-max h-max md:hidden' />
     </div>
   );
 };

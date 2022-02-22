@@ -36,7 +36,7 @@ const AboutSkills = () => {
         mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat">
           <div className="md:flex w-10/12 mx-auto py-10 md:py-40">
             <img src="/skill.png" alt="skill" className="
-            py-10 hidden md:block" />
+            w-max h-max py-10 hidden md:block" />
             <div className="md:pl-5">
               <div className="md:flex py-5">
                 <h1
