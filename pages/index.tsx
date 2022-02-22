@@ -4,13 +4,7 @@ import Hero from '../components/Hero';
 import AboutSkills from '../components/AboutSkills';
 import ValuesFuture from '../components/ValuesFuture';
 
-/**
- *
- *
- * @export
- * @return {*}
- */
-export default function Home() {
+const Home = () => {
   return (
     <div>
       {/* head */}
@@ -18,11 +12,10 @@ export default function Home() {
         <title>fwywd/自己紹介ページ</title>
       </Head>
       {/* body */}
-      <main className="w-full">
-        <Hero />
-        <AboutSkills />
-        <ValuesFuture />
-      </main>
+      <Hero />
+      <AboutSkills />
+      <ValuesFuture />
     </div>
   );
-}
+};
+export default Home;
