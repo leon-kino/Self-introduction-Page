@@ -1,6 +1,6 @@
 import React from 'react';
-import About from './about';
-import Skills from './skills';
+import About from './About';
+import Skills from './Skills';
 
 const AboutSkills = () => {
   return (

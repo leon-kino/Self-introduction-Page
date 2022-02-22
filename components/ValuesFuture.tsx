@@ -1,5 +1,5 @@
 import React from 'react';
-import Values from './values';
+import Values from './Values';
 
 const ValuesFuture = () => {
   return (
