@@ -14,7 +14,7 @@ export default function Layout({children}: {children: any}) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="w-full">{children}</main>
       <Footer />
     </>
   );

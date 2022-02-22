@@ -18,11 +18,9 @@ export default function Home() {
         <title>fwywd/自己紹介ページ</title>
       </Head>
       {/* body */}
-      <main className="w-full">
-        <Hero />
-        <AboutSkills />
-        <ValuesFuture />
-      </main>
+      <Hero />
+      <AboutSkills />
+      <ValuesFuture />
     </div>
   );
 }
