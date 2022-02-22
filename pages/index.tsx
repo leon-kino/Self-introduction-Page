@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       {/* head */}
       <Head>
-        <title>fwywd/自己紹介ページ</title>
+        <title>自己紹介ページ</title>
       </Head>
       {/* body */}
       <Hero />
