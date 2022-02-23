@@ -14,7 +14,7 @@ const MyApp = ({Component, pageProps}: AppProps) => {
         twitter={{
           handle: '1re0n',
           site: '1re0n',
-          cardType: 'summary',
+          cardType: 'with Large Image',
         }}
         openGraph={{
           type: 'website',
