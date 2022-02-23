@@ -3,10 +3,12 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import AboutSkills from '../components/AboutSkills';
 import ValuesFuture from '../components/ValuesFuture';
+import {NextSeo} from 'next-seo';
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <NextSeo title="自己紹介ページ" description="木野伶音の自己紹介ページです。" />
       {/* head */}
       <Head>
         <title>自己紹介ページ</title>
@@ -15,7 +17,7 @@ const Home = () => {
       <Hero />
       <AboutSkills />
       <ValuesFuture />
-    </div>
+    </>
   );
 };
 export default Home;
