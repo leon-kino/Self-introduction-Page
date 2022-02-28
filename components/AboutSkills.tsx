@@ -16,27 +16,45 @@ const AboutSkills = () => {
             >
               私について
             </h1>
-            <h2 className="
-            text-light-green mt-2 text-center tracking-wider md:my-auto">
+            <h2
+              className="
+            text-light-green mt-2 text-center tracking-wider md:my-auto"
+            >
               ABOUT
             </h2>
           </div>
           <div className="md:flex justify-center">
-            <About src={'/about-1.png'} title={'趣味'}
-              content={'1ボーリング\n上手くはないです\n2映画鑑賞\nハリーポッターが大好きです'} />
-            <About src={'/about-2.png'} title={'好きな食べ物'}
-              content={'1ピザ\nサイゼリアでは絶対に食べます\n2カレー\n辛すぎず甘すぎずの中辛派です'} />
-            <About src={'/about-3.png'} title={'性格'}
+            <About
+              src={'/about-1.png'}
+              title={'趣味'}
+              content={'1ボーリング\n上手くはないです\n2映画鑑賞\nハリーポッターが大好きです'}
+            />
+            <About
+              src={'/about-2.png'}
+              title={'好きな食べ物'}
+              content={'1ピザ\nサイゼリアでは絶対に食べます\n2カレー\n辛すぎず甘すぎずの中辛派です'}
+            />
+            <About
+              src={'/about-3.png'}
+              title={'性格'}
               content={
-                '1負けず嫌い\n他人に負けるのが嫌いです\n2思い立ったら即行動\n考える前に\n体が動いているタイプです'} />
+                '1負けず嫌い\n他人に負けるのが嫌いです\n2思い立ったら即行動\n考える前に\n体が動いているタイプです'
+              }
+            />
           </div>
         </div>
         {/* skills */}
-        <div className="
-        mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat">
+        <div
+          className="
+        mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat"
+        >
           <div className="md:flex w-10/12 mx-auto py-10 md:py-40">
-            <img src="/skill.png" alt="skill" className="
-            w-max h-max py-10 hidden md:block" />
+            <img
+              src="/skill.png"
+              alt="skill"
+              className="
+            w-max h-max py-10 hidden md:block"
+            />
             <div className="md:pl-5">
               <div className="md:flex py-5">
                 <h1
@@ -52,12 +70,19 @@ const AboutSkills = () => {
                   SKILLS
                 </h2>
               </div>
-              <img src="/skill.png" alt="skill" className="
-            py-10 md:hidden m-auto" />
+              <img
+                src="/skill.png"
+                alt="skill"
+                className="
+            py-10 md:hidden m-auto"
+              />
               <p className="w-full py-5 text-brack text-center md:text-left">
-                社会人経験がなくて、大したスキルは持っていないです。<br />
-                しかし、10代だからこその行動力や発想力を持っています。<br />
-                プログラミングに関しては、実戦で使えるレベルではないですが、<br />
+                社会人経験がなくて、大したスキルは持っていないです。
+                <br />
+                しかし、10代だからこその行動力や発想力を持っています。
+                <br />
+                プログラミングに関しては、実戦で使えるレベルではないですが、
+                <br />
                 学校などで学んでいたので他の高校生よりはできます。
               </p>
               <div className="rounded bg-white h-64 m-auto w-full">
@@ -72,7 +97,6 @@ const AboutSkills = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };
