@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import AboutSkills from '../components/AboutSkills';
 import ValuesFuture from '../components/ValuesFuture';
-import {NextSeo} from 'next-seo';
+import { NextSeo } from 'next-seo';
 
 const Home = () => {
   return (
