@@ -5,7 +5,7 @@ const ValuesFuture = () => {
   return (
     <div className="bg-future-sp md:bg-future bg-no-repeat bg-bottom">
       {/* values */}
-      <div className="mt-0 p-0 w-full h-full">
+      <div id="VALUES" className="mt-0 p-0 w-full h-full">
         <div
           className="
         flex flex-col md:flex-row justify-center my-14"
@@ -59,6 +59,7 @@ const ValuesFuture = () => {
       </div>
       {/* future */}
       <div
+        id="FUTURE"
         className="
       w-10/12 md:w-8/12 m-auto py-10 md:flex justify-between"
       >

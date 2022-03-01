@@ -8,7 +8,7 @@ const AboutSkills = () => {
       {/* about-skills */}
       <div className="mt-0 p-0 w-full h-full md:bg-about bg-no-repeat">
         {/* about */}
-        <div>
+        <div id="ABOUT">
           <div className="w-full md:flex justify-center py-10">
             <h1
               className="w-full md:w-max text-2xl text-center font-bold
@@ -45,6 +45,7 @@ const AboutSkills = () => {
         </div>
         {/* skills */}
         <div
+          id="SKILLS"
           className="
         mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat"
         >
