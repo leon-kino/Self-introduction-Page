@@ -12,6 +12,10 @@ const Home = () => {
       {/* head */}
       <Head>
         <title>自己紹介ページ</title>
+        <meta
+          name="google-site-verification"
+          content="iwK0mLFWcgnUjp0yjhQhzUrodTCi15zpPWfn6S5Utyo"
+        />
       </Head>
       {/* body */}
       <Hero />
