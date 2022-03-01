@@ -18,8 +18,12 @@ const Footer = () => {
         </div>
         <img src="/logo_white.png" className="w-max h-36 m-auto mb-10" />
         <div className="flex justify-center">
-          <img src="/twitter.png" className="w-max h-4 mx-3" />
-          <img src="/facebook.png" className="w-max h-4 mx-3" />
+          <a href="https://twitter.com/share?url=https://self-introduction-page.vercel.app/&text=木野伶音の自己紹介ページ&hashtags=自己紹介">
+            <img src="/twitter.png" className="w-max h-4 mx-3" />
+          </a>
+          <a href="http://www.facebook.com/share.php?u=https://self-introduction-page.vercel.app/">
+            <img src="/facebook.png" className="w-max h-4 mx-3" />
+          </a>
         </div>
         <p className="text-white text-xs text-center py-10">©︎ 2021 KIKAGAKU</p>
       </div>
