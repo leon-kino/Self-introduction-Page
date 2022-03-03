@@ -24,7 +24,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           url: 'https://self-introduction-page.vercel.app/',
           images: [
             {
-              url: '/logo_white.png',
+              url: 'https://self-introduction-page.vercel.app/ogp/ogp.png',
               width: 1200,
               height: 630,
               alt: 'self-introduction/ogp画像',
