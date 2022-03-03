@@ -6,7 +6,7 @@ import { Feed } from 'feed';
  *
  */
 function generatedRssFeed(): void {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || '';
+  const baseUrl = 'https://self-introduction-page.vercel.app/';
   const date = new Date();
   // author の情報を書き換える
   const author = {
@@ -17,8 +17,8 @@ function generatedRssFeed(): void {
 
   // デフォルトになる feed の情報
   const feed = new Feed({
-    title: process.env.NEXT_PUBLIC_BASE_NAME || '',
-    description: process.env.NEXT_PUBLIC_BASE_DISC,
+    title: 'self-introduction-rage',
+    description: '木野伶音の自己紹介ページです。',
     id: baseUrl,
     link: baseUrl,
     language: 'ts',
