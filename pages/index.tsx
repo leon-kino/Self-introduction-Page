@@ -4,6 +4,8 @@ import Hero from '../components/Hero';
 import AboutSkills from '../components/AboutSkills';
 import ValuesFuture from '../components/ValuesFuture';
 import { NextSeo } from 'next-seo';
+import { GetStaticProps } from 'next';
+import generatedRssFeed from './api/feed';
 
 const Home = () => {
   return (
@@ -25,3 +27,11 @@ const Home = () => {
   );
 };
 export default Home;
+
+export const getStaticProps: GetStaticProps = async () => {
+  // フィード情報の生成
+  generatedRssFeed();
+  return {
+    props: {},
+  };
+};
