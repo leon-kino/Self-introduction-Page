@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from './image';
 
 const Hero = () => {
   return (
@@ -23,11 +24,12 @@ const Hero = () => {
         </h2>
       </div>
       <div className="w-full">
-        <img
-          src="/hero.png"
-          alt="hero"
-          className="w-8/12 h-full md:w-max mx-auto md:ml-auto m-10"
-        />
+        <div className="w-max h-max hidden md:block ml-auto m-10">
+          <Img src="/hero.png" w={585} h={498} />
+        </div>
+        <div className="w-max h-max md:hidden mx-auto m-10">
+          <Img src="/hero.png" w={260} h={210} />
+        </div>
       </div>
     </div>
   );

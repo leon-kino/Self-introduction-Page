@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from './image';
 
 const Footer = () => {
   return (
@@ -16,13 +17,21 @@ const Footer = () => {
           <p className="text-white text-xs my-auto hidden md:block">CREATED BY</p>
           <p className="text-white my-auto ml-5 font-bold hidden md:block">木野 伶音</p>
         </div>
-        <img src="/logo_white.png" className="w-max h-36 m-auto mb-10" />
+        <div className="m-auto mb-10">
+          <div className="w-max h-max mx-auto">
+            <Img src="/logo_white.png" w={120} h={150} />
+          </div>
+        </div>
         <div className="flex justify-center">
           <a href="https://twitter.com/share?url=https://self-introduction-page.vercel.app/&text=木野伶音の自己紹介ページ&hashtags=自己紹介">
-            <img src="/twitter.png" className="w-max h-4 mx-3" />
+            <div className="w-max h-max mx-3">
+              <Img src="/twitter.png" w={20} h={20} />
+            </div>
           </a>
           <a href="http://www.facebook.com/share.php?u=https://self-introduction-page.vercel.app/">
-            <img src="/facebook.png" className="w-max h-4 mx-3" />
+            <div className="w-max h-max mx-3">
+              <Img src="/facebook.png" w={20} h={20} />
+            </div>
           </a>
         </div>
         <p className="text-white text-xs text-center py-10">©︎ 2021 KIKAGAKU</p>
