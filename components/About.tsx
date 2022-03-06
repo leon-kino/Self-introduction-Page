@@ -1,9 +1,12 @@
 import React from 'react';
+import Img from './image';
 
 const About = (props: { src: string; title: string; content: string }) => {
   return (
     <div className="mx-16 text-center">
-      <img src={props.src} alt={props.src} className="w-max h-max m-auto" />
+      <div className="w-max h-max m-auto">
+        <Img src={props.src} w={200} h={200} />
+      </div>
       <p className="text-xl font-bold text-light-green tracking-widest my-8">{props.title}</p>
       <p
         className="

@@ -1,5 +1,6 @@
 import React from 'react';
 import Values from './Values';
+import Img from './image';
 
 const ValuesFuture = () => {
   return (
@@ -28,7 +29,7 @@ const ValuesFuture = () => {
         w-10/12 md:w-8/12 m-auto justify-around pb-10"
         >
           <Values
-            src={'value1.png'}
+            src={'/value1.png'}
             title={'成長'}
             content={
               '「毎日1%の成長\nが人生の目標です。\n毎日少しでも良いことをするか\nし' +
@@ -37,7 +38,7 @@ const ValuesFuture = () => {
           />
           <div className="md:border-l-2 border-line-green">
             <Values
-              src={'value2.png'}
+              src={'/value2.png'}
               title={'挑戦'}
               content={
                 '成長するためには常に\n挑戦し続けなければなりません\n' +
@@ -47,7 +48,7 @@ const ValuesFuture = () => {
           </div>
           <div className="md:border-l-2 border-line-green">
             <Values
-              src={'value3.png'}
+              src={'/value3.png'}
               title={'メリハリ'}
               content={
                 '楽しむときは楽しむ。\n頑張るときは頑張る。\n' +
@@ -91,19 +92,13 @@ const ValuesFuture = () => {
             教育を変えることでより良い日本・世界にします。
           </h1>
         </div>
-        <img
-          src="future.png"
-          alt="future"
-          className="
-        w-max h-max hidden md:block"
-        />
+        <div className="w-max h-max hidden md:block">
+          <Img src="/future.png" w={900} h={470} />
+        </div>
       </div>
-      <img
-        src="future.png"
-        alt="future"
-        className="
-     w-max h-max md:hidden"
-      />
+      <div className="w-max h-max md:hidden">
+        <Img src="/future.png" w={375} h={200} />
+      </div>
     </div>
   );
 };

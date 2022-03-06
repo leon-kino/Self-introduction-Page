@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Skills from './Skills';
+import Img from './image';
 
 const AboutSkills = () => {
   return (
@@ -50,12 +51,9 @@ const AboutSkills = () => {
         mt-0 p-0 w-full h-full bg-skills-sp md:bg-skills bg-no-repeat"
         >
           <div className="md:flex w-10/12 mx-auto py-10 md:py-40">
-            <img
-              src="/skill.png"
-              alt="skill"
-              className="
-            w-max h-max py-10 hidden md:block"
-            />
+            <div className="w-max h-max hidden md:block my-auto">
+              <Img src="/skill.png" w={535} h={372} />
+            </div>
             <div className="md:pl-5">
               <div className="md:flex py-5">
                 <h1
@@ -71,12 +69,9 @@ const AboutSkills = () => {
                   SKILLS
                 </h2>
               </div>
-              <img
-                src="/skill.png"
-                alt="skill"
-                className="
-            py-10 md:hidden m-auto"
-              />
+              <div className="w-max h-max md:hidden my-auto">
+                <Img src="/skill.png" w={300} h={300} />
+              </div>
               <p className="w-full py-5 text-brack text-center md:text-left">
                 社会人経験がなくて、大したスキルは持っていないです。
                 <br />
