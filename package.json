@@ -7,7 +7,8 @@
     "lint:eslint": "  eslint .",
     "lint:prettier": "prettier . --check",
     "fix:eslint": "  yarn lint:eslint --fix",
-    "fix:prettier": "yarn lint:prettier --write"
+    "fix:prettier": "yarn lint:prettier --write",
+    "lint:css": "stylelint --fix **/*.{css,scss,sass}"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
@@ -16,7 +17,8 @@
     "next-seo": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "stylelint-config-recommended": "^7.0.0"
   },
   "devDependencies": {
     "@types/marked": "^4.0.2",
@@ -33,6 +35,8 @@
     "next-sitemap": "^2.5.2",
     "postcss": "^8.4.5",
     "prettier": "2.5.1",
+    "stylelint": "^14.5.3",
+    "stylelint-config-prettier": "^9.0.3",
     "tailwindcss": "^3.0.7",
     "typescript": "4.5.4"
   }
