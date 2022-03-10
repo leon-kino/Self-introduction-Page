@@ -16,6 +16,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           site: '1re0n',
           cardType: 'summary_large_image',
         }}
+        facebook={{
+          appId: '973040650266903',
+        }}
         openGraph={{
           type: 'website',
           title: '木野伶音の自己紹介ページ',
